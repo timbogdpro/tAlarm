@@ -1,18 +1,24 @@
-# Звуки будильника — источники и лицензии
+# Alarm sounds — sources & licenses
 
-Все четыре сигнала взяты с Wikimedia Commons и имеют лицензии Public Domain / CC0,
-то есть их можно свободно использовать, в том числе в приложении для Google Play,
-без обязательной атрибуции. Ниже указано на всякий случай.
+The four bundled alarm sounds in `app/src/main/res/raw/` were sourced from
+**Wikimedia Commons** and are in the **public domain or under CC0** (no rights
+reserved) — free to use, including in published apps, without required attribution.
 
-Обработка: каждый файл нормализован по громкости (ffmpeg `loudnorm I=-9 TP=-1`),
-приведён к 44.1 кГц, стерео, OGG Vorbis, длина обрезана максимум до 12 с.
+Each file was processed for the app: loudness-normalized (ffmpeg `loudnorm`),
+converted to OGG Vorbis, and trimmed to a short loop.
 
-| Файл в приложении | Оригинал | Лицензия | Источник |
+| File | In-app name (RU / EN) | Source | License |
 |---|---|---|---|
-| `siren.ogg` | Motorsirene – Feuerwehralarm | Public Domain | https://commons.wikimedia.org/wiki/File:Motorsirene_-_Feuerwehralarm.ogg |
-| `train_horn.ogg` | The horn of a Bluebird railcar | CC0 | https://commons.wikimedia.org/wiki/File:The_horn_of_a_Bluebird_railcar.ogg |
-| `ship_horn.ogg` | Cruise ship Albatros ship horn | CC0 | https://commons.wikimedia.org/wiki/File:Cruise_ship_Albatros_ship_horn.ogg |
-| `siren2.ogg` | Siren | Public Domain | https://commons.wikimedia.org/wiki/File:Siren.ogg |
+| `air_raid_siren.ogg` | Воздушная тревога / Air-raid siren | Wikimedia Commons | Public Domain / CC0 |
+| `loud_siren.ogg` | Громкая сирена / Loud siren | Wikimedia Commons | Public Domain / CC0 |
+| `fantastic_siren.ogg` | Космическая сирена / Sci-fi siren | Wikimedia Commons | Public Domain / CC0 |
+| `car_horn.ogg` | Клаксон / Car horn | Wikimedia Commons | Public Domain / CC0 |
 
-Чтобы заменить любой сигнал своим: положите mp3/wav/ogg в `app/src/main/res/raw/`
-под тем же именем (латиницей, без пробелов) и пересоберите.
+The above reflects the developer's sourcing (Wikimedia Commons public-domain / CC0
+audio); files were re-encoded, so they may not byte-match the originals. If you are
+a rights holder with any concern about a sound, contact **timbogdeu2@gmail.com**
+and it will be addressed promptly.
+
+## Replacing a sound
+Drop an `mp3` / `wav` / `ogg` into `app/src/main/res/raw/` under the same file name
+(ASCII, no spaces) and rebuild. The registry is in `Sounds.kt`.
