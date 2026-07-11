@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIANT: Bold — thick outlines (2dp), large radius. -->
+<resources>
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="card_stroke">2dp</dimen>
+</resources>

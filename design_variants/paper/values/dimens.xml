@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIANT: Paper — outlined cards (1dp), medium radius. -->
+<resources>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_stroke">1dp</dimen>
+</resources>

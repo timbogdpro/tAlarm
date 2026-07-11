@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ===== Type scale bound to swappable fonts ===== -->
+    <style name="TA.Heading.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium"><item name="android:fontFamily">@font/app_heading</item><item name="fontFamily">@font/app_heading</item></style>
+    <style name="TA.Heading.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall"><item name="android:fontFamily">@font/app_heading</item><item name="fontFamily">@font/app_heading</item></style>
+    <style name="TA.Heading.TitleLarge" parent="TextAppearance.Material3.TitleLarge"><item name="android:fontFamily">@font/app_heading</item><item name="fontFamily">@font/app_heading</item></style>
+    <style name="TA.Heading.TitleMedium" parent="TextAppearance.Material3.TitleMedium"><item name="android:fontFamily">@font/app_heading</item><item name="fontFamily">@font/app_heading</item></style>
+    <style name="TA.Heading.TitleSmall" parent="TextAppearance.Material3.TitleSmall"><item name="android:fontFamily">@font/app_heading</item><item name="fontFamily">@font/app_heading</item></style>
+    <style name="TA.Heading.LabelLarge" parent="TextAppearance.Material3.LabelLarge"><item name="android:fontFamily">@font/app_heading</item><item name="fontFamily">@font/app_heading</item></style>
+    <style name="TA.Body.BodyLarge" parent="TextAppearance.Material3.BodyLarge"><item name="android:fontFamily">@font/app_body</item><item name="fontFamily">@font/app_body</item></style>
+    <style name="TA.Body.BodyMedium" parent="TextAppearance.Material3.BodyMedium"><item name="android:fontFamily">@font/app_body</item><item name="fontFamily">@font/app_body</item></style>
+    <style name="TA.Body.BodySmall" parent="TextAppearance.Material3.BodySmall"><item name="android:fontFamily">@font/app_body</item><item name="fontFamily">@font/app_body</item></style>
+
+    <!-- ===== Shared base: Paper colours (DayNight) + Green accent + fonts ===== -->
+    <style name="Theme.LoudAlarm.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/acc_green_primary</item>
+        <item name="colorOnPrimary">@color/acc_green_on</item>
+        <item name="colorPrimaryContainer">@color/acc_green_container</item>
+        <item name="colorOnPrimaryContainer">@color/acc_green_on_container</item>
+        <item name="colorSecondary">@color/acc_green_primary</item>
+        <item name="colorOnSecondary">@color/acc_green_on</item>
+        <item name="colorSecondaryContainer">@color/acc_green_container</item>
+        <item name="colorOnSecondaryContainer">@color/acc_green_on_container</item>
+        <item name="colorTertiary">@color/acc_green_primary</item>
+        <item name="colorOnTertiary">@color/acc_green_on</item>
+        <item name="colorTertiaryContainer">@color/acc_green_container</item>
+        <item name="colorOnTertiaryContainer">@color/acc_green_on_container</item>
+
+        <item name="colorError">@color/md_error</item>
+        <item name="colorOnError">@color/md_on_error</item>
+        <item name="colorErrorContainer">@color/md_error_container</item>
+        <item name="colorOnErrorContainer">@color/md_on_error_container</item>
+        <item name="android:colorBackground">@color/md_background</item>
+        <item name="colorOnBackground">@color/md_on_background</item>
+        <item name="colorSurface">@color/md_surface</item>
+        <item name="colorOnSurface">@color/md_on_surface</item>
+        <item name="colorSurfaceVariant">@color/md_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/md_on_surface_variant</item>
+        <item name="colorSurfaceContainer">@color/md_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/md_surface_container_high</item>
+        <item name="colorOutline">@color/md_outline</item>
+        <item name="colorOutlineVariant">@color/md_outline_variant</item>
+
+        <item name="textAppearanceHeadlineMedium">@style/TA.Heading.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TA.Heading.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TA.Heading.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TA.Heading.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TA.Heading.TitleSmall</item>
+        <item name="textAppearanceLabelLarge">@style/TA.Heading.LabelLarge</item>
+        <item name="textAppearanceBodyLarge">@style/TA.Body.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TA.Body.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TA.Body.BodySmall</item>
+
+        <item name="android:statusBarColor">@color/md_surface</item>
+        <item name="android:navigationBarColor">@color/md_surface</item>
+    </style>
+
+    <!-- Light: dark status/nav icons -->
+    <style name="Theme.LoudAlarm" parent="Theme.LoudAlarm.Base">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- Full-screen ringing -->
+    <style name="Theme.LoudAlarm.Alarm" parent="Theme.LoudAlarm">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/alarm_grad_top</item>
+        <item name="android:navigationBarColor">@color/alarm_grad_bottom</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+
+    <!-- ===== Selectable accent overlays (applied at runtime) ===== -->
+    <style name="ThemeOverlay.LoudAlarm.Green" parent="">
+        <item name="colorPrimary">@color/acc_green_primary</item><item name="colorOnPrimary">@color/acc_green_on</item><item name="colorPrimaryContainer">@color/acc_green_container</item><item name="colorOnPrimaryContainer">@color/acc_green_on_container</item>
+        <item name="colorSecondary">@color/acc_green_primary</item><item name="colorOnSecondary">@color/acc_green_on</item><item name="colorSecondaryContainer">@color/acc_green_container</item><item name="colorOnSecondaryContainer">@color/acc_green_on_container</item>
+        <item name="colorTertiary">@color/acc_green_primary</item><item name="colorOnTertiary">@color/acc_green_on</item><item name="colorTertiaryContainer">@color/acc_green_container</item><item name="colorOnTertiaryContainer">@color/acc_green_on_container</item>
+    </style>
+    <style name="ThemeOverlay.LoudAlarm.Amber" parent="">
+        <item name="colorPrimary">@color/acc_amber_primary</item><item name="colorOnPrimary">@color/acc_amber_on</item><item name="colorPrimaryContainer">@color/acc_amber_container</item><item name="colorOnPrimaryContainer">@color/acc_amber_on_container</item>
+        <item name="colorSecondary">@color/acc_amber_primary</item><item name="colorOnSecondary">@color/acc_amber_on</item><item name="colorSecondaryContainer">@color/acc_amber_container</item><item name="colorOnSecondaryContainer">@color/acc_amber_on_container</item>
+        <item name="colorTertiary">@color/acc_amber_primary</item><item name="colorOnTertiary">@color/acc_amber_on</item><item name="colorTertiaryContainer">@color/acc_amber_container</item><item name="colorOnTertiaryContainer">@color/acc_amber_on_container</item>
+    </style>
+    <style name="ThemeOverlay.LoudAlarm.Teal" parent="">
+        <item name="colorPrimary">@color/acc_teal_primary</item><item name="colorOnPrimary">@color/acc_teal_on</item><item name="colorPrimaryContainer">@color/acc_teal_container</item><item name="colorOnPrimaryContainer">@color/acc_teal_on_container</item>
+        <item name="colorSecondary">@color/acc_teal_primary</item><item name="colorOnSecondary">@color/acc_teal_on</item><item name="colorSecondaryContainer">@color/acc_teal_container</item><item name="colorOnSecondaryContainer">@color/acc_teal_on_container</item>
+        <item name="colorTertiary">@color/acc_teal_primary</item><item name="colorOnTertiary">@color/acc_teal_on</item><item name="colorTertiaryContainer">@color/acc_teal_container</item><item name="colorOnTertiaryContainer">@color/acc_teal_on_container</item>
+    </style>
+    <style name="ThemeOverlay.LoudAlarm.Plum" parent="">
+        <item name="colorPrimary">@color/acc_plum_primary</item><item name="colorOnPrimary">@color/acc_plum_on</item><item name="colorPrimaryContainer">@color/acc_plum_container</item><item name="colorOnPrimaryContainer">@color/acc_plum_on_container</item>
+        <item name="colorSecondary">@color/acc_plum_primary</item><item name="colorOnSecondary">@color/acc_plum_on</item><item name="colorSecondaryContainer">@color/acc_plum_container</item><item name="colorOnSecondaryContainer">@color/acc_plum_on_container</item>
+        <item name="colorTertiary">@color/acc_plum_primary</item><item name="colorOnTertiary">@color/acc_plum_on</item><item name="colorTertiaryContainer">@color/acc_plum_container</item><item name="colorOnTertiaryContainer">@color/acc_plum_on_container</item>
+    </style>
+
+    <!-- Section header -->
+    <style name="Widget.LoudAlarm.SectionHeader" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">@font/app_heading</item>
+        <item name="fontFamily">@font/app_heading</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

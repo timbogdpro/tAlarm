@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_test"
+        android:title="@string/test_signal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_scheme"
+        android:title="@string/color_scheme"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_donate"
+        android:title="@string/donate_menu"
+        app:showAsAction="never" />
+</menu>

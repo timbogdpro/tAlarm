@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIANT: Bold — white, thick outlines, electric-violet accent. All pairs >= WCAG AA. -->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="md_primary">#5B2BE0</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#E7DEFF</color>
+    <color name="md_on_primary_container">#1C0066</color>
+
+    <color name="md_secondary">#4C5B00</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#E6F9B8</color>
+    <color name="md_on_secondary_container">#2C3A00</color>
+
+    <color name="md_tertiary">#B3005D</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#FFD9E2</color>
+    <color name="md_on_tertiary_container">#3E0021</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <color name="md_background">#FFFFFF</color>
+    <color name="md_on_background">#14121A</color>
+    <color name="md_surface">#FFFFFF</color>
+    <color name="md_on_surface">#14121A</color>
+    <color name="md_surface_variant">#ECE9F2</color>
+    <color name="md_on_surface_variant">#46424E</color>
+    <color name="md_surface_container">#FFFFFF</color>
+    <color name="md_surface_container_high">#F4F1FA</color>
+    <color name="md_outline">#14121A</color>
+    <color name="md_outline_variant">#C9C4D6</color>
+
+    <!-- Ringing screen -->
+    <color name="alarm_grad_top">#6C3BF5</color>
+    <color name="alarm_grad_bottom">#3A159E</color>
+    <color name="alarm_fg">#FFFFFF</color>
+    <color name="alarm_hint">#99FFFFFF</color>
+    <color name="alarm_btn_bg">#FFFFFF</color>
+    <color name="alarm_btn_fg">#3A159E</color>
+</resources>

@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Soviet twin-bell alarm clock, brass + glass with highlights. -->
+
+    <!-- soft shadow -->
+    <path android:fillColor="#33000000" android:pathData="M34,81 a20,5 0 1,0 40,0 a20,5 0 1,0 -40,0z" />
+
+    <!-- bells (brass) -->
+    <path android:pathData="M29,30 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="18" android:endX="0" android:endY="40">
+                <item android:offset="0.0" android:color="#FFF6DB97" />
+                <item android:offset="0.5" android:color="#FFCE9F46" />
+                <item android:offset="1.0" android:color="#FFA5781E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M59,30 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="18" android:endX="0" android:endY="40">
+                <item android:offset="0.0" android:color="#FFF6DB97" />
+                <item android:offset="0.5" android:color="#FFCE9F46" />
+                <item android:offset="1.0" android:color="#FFA5781E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- bell speculars -->
+    <path android:fillColor="#99FFFFFF" android:pathData="M32.4,26 a2.6,3.6 0 1,0 5.2,0 a2.6,3.6 0 1,0 -5.2,0z" />
+    <path android:fillColor="#99FFFFFF" android:pathData="M62.4,26 a2.6,3.6 0 1,0 5.2,0 a2.6,3.6 0 1,0 -5.2,0z" />
+
+    <!-- feet (brass) -->
+    <path android:fillColor="#FFC79644" android:pathData="M38.4,82 a3.6,3.6 0 1,0 7.2,0 a3.6,3.6 0 1,0 -7.2,0z" />
+    <path android:fillColor="#FFC79644" android:pathData="M62.4,82 a3.6,3.6 0 1,0 7.2,0 a3.6,3.6 0 1,0 -7.2,0z" />
+
+    <!-- body ring (brass) -->
+    <path android:pathData="M30,56 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="32" android:endX="0" android:endY="80">
+                <item android:offset="0.0" android:color="#FFF3D68F" />
+                <item android:offset="0.5" android:color="#FFCB9E46" />
+                <item android:offset="1.0" android:color="#FFA1741C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- rim glint -->
+    <path android:fillColor="#66FFFFFF" android:pathData="M40,42 a5,2.4 0 1,0 10,0 a5,2.4 0 1,0 -10,0z" />
+
+    <!-- face -->
+    <path android:pathData="M35,56 a19,19 0 1,0 38,0 a19,19 0 1,0 -38,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="48" android:centerY="49" android:gradientRadius="24"
+                android:startColor="#FFFFFFFF" android:endColor="#FFE9E3D2" />
+        </aapt:attr>
+    </path>
+    <!-- glass reflection -->
+    <path android:fillColor="#4DFFFFFF" android:pathData="M38,48 a9,4 0 1,0 18,0 a9,4 0 1,0 -18,0z" />
+
+    <!-- hands -->
+    <path android:fillColor="#00000000" android:strokeColor="#FF2B2B29" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M54,56 L54,45.5" />
+    <path android:fillColor="#00000000" android:strokeColor="#FF2B2B29" android:strokeWidth="2.6" android:strokeLineCap="round" android:pathData="M54,56 L64,51.5" />
+    <path android:fillColor="#FF2B2B29" android:pathData="M51.9,56 a2.1,2.1 0 1,0 4.2,0 a2.1,2.1 0 1,0 -4.2,0z" />
+</vector>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Material 3 light color tokens.
+  Brand = accessible indigo primary + warm amber accent (colour-blind-safe
+  complementary pair). Red is reserved for the "alert" semantics of a ringing
+  alarm and destructive actions, and is always paired with an icon + text so
+  meaning never depends on colour alone. All text/background pairs verified
+  >= WCAG 2.2 AA (most AAA).
+-->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Primary (indigo) -->
+    <color name="md_primary">#4C5FD5</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#E0E1FF</color>
+    <color name="md_on_primary_container">#131A6B</color>
+
+    <!-- Secondary (amber accent) -->
+    <color name="md_secondary">#8A5100</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#FFDDB3</color>
+    <color name="md_on_secondary_container">#4A2800</color>
+
+    <!-- Tertiary (teal) -->
+    <color name="md_tertiary">#006A63</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#9EF2E6</color>
+    <color name="md_on_tertiary_container">#00201D</color>
+
+    <!-- Error / alert -->
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <!-- Neutral surfaces -->
+    <color name="md_background">#FDFBFF</color>
+    <color name="md_on_background">#1A1B21</color>
+    <color name="md_surface">#FDFBFF</color>
+    <color name="md_on_surface">#1A1B21</color>
+    <color name="md_surface_variant">#E3E1EC</color>
+    <color name="md_on_surface_variant">#45464F</color>
+    <color name="md_surface_container">#F1EEFA</color>
+    <color name="md_surface_container_high">#EBE8F3</color>
+    <color name="md_outline">#767680</color>
+    <color name="md_outline_variant">#C7C5D0</color>
+    <color name="md_inverse_surface">#2F3036</color>
+    <color name="md_inverse_on_surface">#F2EFF7</color>
+
+    <!-- Full-screen ringing gradient (semantic alert red) -->
+    <color name="alarm_grad_top">#C62828</color>
+    <color name="alarm_grad_bottom">#7F0E0E</color>
+</resources>

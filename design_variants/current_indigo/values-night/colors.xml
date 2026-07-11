@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material 3 dark color tokens. Same names as values/colors.xml, resolved
+     automatically at night. All pairs verified >= WCAG 2.2 AA. -->
+<resources>
+    <!-- Primary (indigo) -->
+    <color name="md_primary">#BBC3FF</color>
+    <color name="md_on_primary">#16277A</color>
+    <color name="md_primary_container">#333E8D</color>
+    <color name="md_on_primary_container">#E0E1FF</color>
+
+    <!-- Secondary (amber accent) -->
+    <color name="md_secondary">#FFB868</color>
+    <color name="md_on_secondary">#4A2800</color>
+    <color name="md_secondary_container">#5A3A00</color>
+    <color name="md_on_secondary_container">#FFDDB3</color>
+
+    <!-- Tertiary (teal) -->
+    <color name="md_tertiary">#82D5CA</color>
+    <color name="md_on_tertiary">#00382F</color>
+    <color name="md_tertiary_container">#00504A</color>
+    <color name="md_on_tertiary_container">#9EF2E6</color>
+
+    <!-- Error / alert -->
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <!-- Neutral surfaces -->
+    <color name="md_background">#121318</color>
+    <color name="md_on_background">#E4E1E9</color>
+    <color name="md_surface">#121318</color>
+    <color name="md_on_surface">#E4E1E9</color>
+    <color name="md_surface_variant">#45464F</color>
+    <color name="md_on_surface_variant">#C7C5D0</color>
+    <color name="md_surface_container">#1E1F25</color>
+    <color name="md_surface_container_high">#292A2F</color>
+    <color name="md_outline">#90909A</color>
+    <color name="md_outline_variant">#45464F</color>
+    <color name="md_inverse_surface">#E4E1E9</color>
+    <color name="md_inverse_on_surface">#2F3036</color>
+
+    <!-- Full-screen ringing gradient (semantic alert red) -->
+    <color name="alarm_grad_top">#B01D1D</color>
+    <color name="alarm_grad_bottom">#5C0A0A</color>
+</resources>

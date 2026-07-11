@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIANT: Midnight — dark, minimal, warm amber accent. All pairs >= WCAG AA. -->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="md_primary">#FFC24B</color>
+    <color name="md_on_primary">#3A2A00</color>
+    <color name="md_primary_container">#5A4200</color>
+    <color name="md_on_primary_container">#FFE0A3</color>
+
+    <color name="md_secondary">#D8C08A</color>
+    <color name="md_on_secondary">#3A2E10</color>
+    <color name="md_secondary_container">#3A3320</color>
+    <color name="md_on_secondary_container">#F0E4C0</color>
+
+    <color name="md_tertiary">#9BD3C4</color>
+    <color name="md_on_tertiary">#05372E</color>
+    <color name="md_tertiary_container">#1E4E45</color>
+    <color name="md_on_tertiary_container">#B9F0E2</color>
+
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <color name="md_background">#0F1113</color>
+    <color name="md_on_background">#E7E3DA</color>
+    <color name="md_surface">#0F1113</color>
+    <color name="md_on_surface">#E7E3DA</color>
+    <color name="md_surface_variant">#2A2D31</color>
+    <color name="md_on_surface_variant">#C3C0B8</color>
+    <color name="md_surface_container">#191B1E</color>
+    <color name="md_surface_container_high">#212327</color>
+    <color name="md_outline">#6E6B63</color>
+    <color name="md_outline_variant">#3A3D40</color>
+
+    <!-- Ringing screen -->
+    <color name="alarm_grad_top">#241A05</color>
+    <color name="alarm_grad_bottom">#0A0700</color>
+    <color name="alarm_fg">#FFC24B</color>
+    <color name="alarm_hint">#80D9B26A</color>
+    <color name="alarm_btn_bg">#FFC24B</color>
+    <color name="alarm_btn_fg">#241A05</color>
+</resources>

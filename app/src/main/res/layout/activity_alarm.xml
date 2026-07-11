@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alarm_gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.6" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/alarm_ringing"
+        android:src="@drawable/ic_alarm"
+        app:tint="@color/alarm_fg" />
+
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFeatureSettings="tnum"
+        android:fontFamily="@font/app_heading"
+        android:letterSpacing="-0.02"
+        android:text="00:00"
+        android:textColor="@color/alarm_fg"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alarm_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textColor="@color/alarm_fg"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/math_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/math_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/solve_to_dismiss"
+            android:textColor="@color/alarm_fg"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/math_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/alarm_fg"
+            android:textSize="44sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/math_answer"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:backgroundTint="@color/alarm_fg"
+            android:gravity="center"
+            android:hint="@string/your_answer"
+            android:inputType="number"
+            android:textColor="@color/alarm_fg"
+            android:textColorHint="@color/alarm_hint"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shake_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/shake_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/shake_to_dismiss"
+            android:textColor="@color/alarm_fg"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/shake_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:progressBackgroundTint="@color/alarm_hint"
+            android:progressTint="@color/alarm_fg" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dismiss_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:text="@string/turn_off"
+        android:textColor="@color/alarm_btn_fg"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/alarm_btn_bg"
+        app:cornerRadius="@dimen/card_radius"
+        app:icon="@drawable/ic_alarm_off"
+        app:iconGravity="textStart"
+        app:iconTint="@color/alarm_btn_fg" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/snooze_btn"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:minHeight="52dp"
+        android:text="@string/snooze"
+        android:textColor="@color/alarm_fg"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_snooze"
+        app:iconGravity="textStart"
+        app:iconTint="@color/alarm_fg" />
+</LinearLayout>

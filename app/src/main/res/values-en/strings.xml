@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">tAlarm</string>
+
+    <!-- Ringing / notification -->
+    <string name="alarm_ringing">Alarm!</string>
+    <string name="turn_off">Turn off</string>
+    <string name="snooze">Snooze</string>
+    <string name="channel_name">Alarm signal</string>
+    <string name="channel_desc">Shows the ringing alarm screen</string>
+
+    <!-- Main screen -->
+    <string name="add_alarm">Add alarm</string>
+    <string name="add">Add</string>
+    <string name="no_alarms">No alarms yet.\nTap “Add” to create one.</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">Alarm</string>
+    <string name="label_hint">Label (optional)</string>
+    <string name="repeat">Repeat on days</string>
+    <string name="preset_all">Every day</string>
+    <string name="preset_weekdays">Weekdays</string>
+    <string name="preset_weekends">Weekends</string>
+    <string name="sound">Sound</string>
+    <string name="sound_air_raid">Air-raid siren</string>
+    <string name="sound_loud_siren">Loud siren</string>
+    <string name="sound_fantastic">Sci-fi siren</string>
+    <string name="sound_car_horn">Car horn</string>
+    <string name="preview">Preview</string>
+    <string name="stop">Stop</string>
+    <string name="dismiss_mode">How to dismiss</string>
+    <string name="dm_button">Button</string>
+    <string name="dm_math">Solve a problem</string>
+    <string name="dm_shake">Shake the phone</string>
+    <string name="volume">Volume</string>
+    <string name="boost">Volume boost (dB)</string>
+    <string name="boost_hint">Higher means louder, up to the point of distortion. Every speaker has its limit: raise it while the sound stays clean, then back off a little.</string>
+    <string name="vibrate">Vibration</string>
+    <string name="snooze_minutes">Snooze for (min)</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="change_time">Tap to change</string>
+
+    <string name="test_signal">Test the sound</string>
+    <string name="test_need_alarm">Create an alarm first</string>
+    <string name="perm_exact_title">Allow exact alarms</string>
+    <string name="perm_exact_body">So the alarm fires exactly on time, allow “Alarms &amp; reminders”. Without it the system may delay the sound.</string>
+    <string name="onboarding_title">Set up permissions</string>
+    <string name="onboarding_body">So the alarm fires exactly and loudly even on a locked phone, a few permissions are needed. We\'ll guide you step by step — just tap Allow.</string>
+    <string name="onboarding_go">Set up</string>
+    <string name="onboarding_later">Later</string>
+
+    <!-- Color scheme picker -->
+    <string name="color_scheme">Color scheme</string>
+    <string name="scheme_green">Forest (green)</string>
+    <string name="scheme_amber">Amber</string>
+    <string name="scheme_teal">Ocean</string>
+    <string name="scheme_plum">Steel</string>
+
+    <!-- Dismiss challenges -->
+    <string name="solve_to_dismiss">Solve the problem to turn off</string>
+    <string name="your_answer">Answer</string>
+    <string name="wrong_answer">Wrong, try again</string>
+    <string name="shake_to_dismiss">Shake the phone to turn off</string>
+    <string name="shakes_left">Shakes left: %1$d</string>
+
+    <!-- Permissions -->
+    <string name="grant">Allow</string>
+    <string name="perm_exact">Allow “Alarms &amp; reminders” (exact alarms)</string>
+    <string name="perm_notif">Allow notifications, otherwise the alarm screen won’t appear</string>
+    <string name="perm_fullscreen">Allow display over the lock screen</string>
+    <string name="perm_battery">Disable battery optimization for reliable operation</string>
+
+    <!-- Days of week (short) -->
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+    <string name="once">Once</string>
+    <string name="everyday">Every day</string>
+
+    <!-- Tabs -->
+    <string name="tab_alarms">Alarms</string>
+    <string name="tab_sleep">Sleep</string>
+
+    <!-- Donate -->
+    <string name="donate_menu">Support “Podari Zhizn”</string>
+    <string name="donate_title">Podari Zhizn foundation</string>
+    <string name="donate_body">This app is free. If you\'d like, you can support the “Podari Zhizn” (Gift of Life) children\'s charity. The money goes straight to the foundation, not to us.</string>
+    <string name="donate_open">Open the foundation site</string>
+    <string name="donate_close">Close</string>
+
+    <!-- Sleep calculator -->
+    <string name="sleep_mode_wake">When to wake up?</string>
+    <string name="sleep_mode_bed">When to go to bed?</string>
+    <string name="sleep_input_bed">I go to sleep at</string>
+    <string name="sleep_input_wake">I want to wake at</string>
+    <string name="sleep_now">Now</string>
+    <string name="sleep_hint">A sleep cycle is ~90 minutes, plus ~15 minutes to fall asleep. Waking between cycles feels easier — aim for 5–6 cycles a night.</string>
+    <string name="sleep_results_wake">Best times to wake up</string>
+    <string name="sleep_results_bed">Best times to go to bed</string>
+    <string name="sleep_recommended">optimal</string>
+    <string name="sleep_tap_hint">Tap a time to set an alarm</string>
+    <string name="dur_h">h</string>
+    <string name="dur_m">min</string>
+    <plurals name="cycles">
+        <item quantity="one">%d cycle</item>
+        <item quantity="other">%d cycles</item>
+    </plurals>
+
+    <!-- Dismiss options (math type, shake intensity, snooze picker) -->
+    <string name="math_type">Problem type</string>
+    <string name="math_addsub">Add / subtract</string>
+    <string name="math_mult">Multiplication</string>
+    <string name="shake_count_label">Shakes to dismiss</string>
+    <string name="snooze_pick_title">Snooze for…</string>
+    <string name="snooze_min_fmt">%d min</string>
+</resources>

@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">tAlarm</string>
+
+    <!-- Ringing / notification -->
+    <string name="alarm_ringing">Будильник!</string>
+    <string name="turn_off">Выключить</string>
+    <string name="snooze">Отложить</string>
+    <string name="channel_name">Сигнал будильника</string>
+    <string name="channel_desc">Показывает экран звонящего будильника</string>
+
+    <!-- Main screen -->
+    <string name="add_alarm">Добавить будильник</string>
+    <string name="add">Добавить</string>
+    <string name="no_alarms">Пока нет будильников.\nНажмите «Добавить», чтобы создать.</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title">Будильник</string>
+    <string name="label_hint">Название (необязательно)</string>
+    <string name="repeat">Повтор по дням</string>
+    <string name="preset_all">Все дни</string>
+    <string name="preset_weekdays">Будни</string>
+    <string name="preset_weekends">Выходные</string>
+    <string name="sound">Звук</string>
+    <string name="sound_air_raid">Воздушная тревога</string>
+    <string name="sound_loud_siren">Громкая сирена</string>
+    <string name="sound_fantastic">Космическая сирена</string>
+    <string name="sound_car_horn">Клаксон</string>
+    <string name="preview">Прослушать</string>
+    <string name="stop">Стоп</string>
+    <string name="dismiss_mode">Как выключать</string>
+    <string name="dm_button">Кнопкой</string>
+    <string name="dm_math">Решить пример</string>
+    <string name="dm_shake">Потрясти телефон</string>
+    <string name="volume">Громкость</string>
+    <string name="boost">Усиление громкости (дБ)</string>
+    <string name="boost_hint">Чем выше — тем громче, вплоть до хрипоты. У каждого динамика свой предел: поднимайте, пока звук чистый, и чуть отступите.</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="snooze_minutes">Отложить на (мин)</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="change_time">Нажмите, чтобы изменить</string>
+
+    <string name="test_signal">Проверить сигнал</string>
+    <string name="test_need_alarm">Сначала создайте будильник</string>
+    <string name="perm_exact_title">Разрешите точные будильники</string>
+    <string name="perm_exact_body">Чтобы будильник срабатывал точно вовремя, разрешите «Будильники и напоминания». Без этого система может задержать сигнал.</string>
+    <string name="onboarding_title">Настройка разрешений</string>
+    <string name="onboarding_body">Чтобы будильник срабатывал точно и громко даже на заблокированном телефоне, нужно выдать несколько разрешений. Мы проведём по шагам — просто нажимайте «Разрешить».</string>
+    <string name="onboarding_go">Настроить</string>
+    <string name="onboarding_later">Позже</string>
+
+    <!-- Color scheme picker -->
+    <string name="color_scheme">Цветовая схема</string>
+    <string name="scheme_green">Лес (зелёный)</string>
+    <string name="scheme_amber">Янтарь</string>
+    <string name="scheme_teal">Океан</string>
+    <string name="scheme_plum">Сталь</string>
+
+    <!-- Dismiss challenges -->
+    <string name="solve_to_dismiss">Решите пример, чтобы выключить</string>
+    <string name="your_answer">Ответ</string>
+    <string name="wrong_answer">Неверно, попробуйте ещё раз</string>
+    <string name="shake_to_dismiss">Трясите телефон, чтобы выключить</string>
+    <string name="shakes_left">Осталось встряхиваний: %1$d</string>
+
+    <!-- Permissions -->
+    <string name="grant">Разрешить</string>
+    <string name="perm_exact">Разрешите «Будильники и напоминания» (точные будильники)</string>
+    <string name="perm_notif">Разрешите уведомления, иначе экран будильника не появится</string>
+    <string name="perm_fullscreen">Разрешите показ поверх экрана блокировки</string>
+    <string name="perm_battery">Отключите оптимизацию батареи для надёжной работы</string>
+
+    <!-- Days of week (short) -->
+    <string name="day_mon">Пн</string>
+    <string name="day_tue">Вт</string>
+    <string name="day_wed">Ср</string>
+    <string name="day_thu">Чт</string>
+    <string name="day_fri">Пт</string>
+    <string name="day_sat">Сб</string>
+    <string name="day_sun">Вс</string>
+    <string name="once">Один раз</string>
+    <string name="everyday">Каждый день</string>
+
+    <!-- Tabs -->
+    <string name="tab_alarms">Будильники</string>
+    <string name="tab_sleep">Сон</string>
+
+    <!-- Donate -->
+    <string name="donate_menu">Поддержать «Подари жизнь»</string>
+    <string name="donate_title">Фонд «Подари жизнь»</string>
+    <string name="donate_body">Приложение бесплатное. Если есть желание — можно поддержать благотворительный фонд «Подари жизнь». Деньги идут фонду напрямую, не нам.</string>
+    <string name="donate_open">Открыть сайт фонда</string>
+    <string name="donate_close">Закрыть</string>
+
+    <!-- Sleep calculator -->
+    <string name="sleep_mode_wake">Во сколько встать?</string>
+    <string name="sleep_mode_bed">Во сколько лечь?</string>
+    <string name="sleep_input_bed">Ложусь спать в</string>
+    <string name="sleep_input_wake">Хочу встать в</string>
+    <string name="sleep_now">Сейчас</string>
+    <string name="sleep_hint">Цикл сна ≈ 90 минут, плюс ~15 минут на засыпание. Просыпаться легче между циклами — старайтесь спать 5–6 циклов за ночь.</string>
+    <string name="sleep_results_wake">Когда лучше проснуться</string>
+    <string name="sleep_results_bed">Когда лучше лечь</string>
+    <string name="sleep_recommended">оптимально</string>
+    <string name="sleep_tap_hint">Нажмите на время — поставить будильник</string>
+    <string name="dur_h">ч</string>
+    <string name="dur_m">мин</string>
+    <plurals name="cycles">
+        <item quantity="one">%d цикл</item>
+        <item quantity="few">%d цикла</item>
+        <item quantity="many">%d циклов</item>
+        <item quantity="other">%d цикла</item>
+    </plurals>
+
+    <!-- Dismiss options (math type, shake intensity, snooze picker) -->
+    <string name="math_type">Тип примера</string>
+    <string name="math_addsub">Сложение / вычитание</string>
+    <string name="math_mult">Умножение</string>
+    <string name="shake_count_label">Сколько встряхиваний</string>
+    <string name="snooze_pick_title">Отложить на…</string>
+    <string name="snooze_min_fmt">%d мин</string>
+</resources>

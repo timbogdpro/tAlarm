@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- STRICT MINIMAL — dark neutrals + dark accents. Same names as values/colors.xml. -->
+<resources>
+    <color name="md_background">#141412</color>
+    <color name="md_on_background">#E9E8E3</color>
+    <color name="md_surface">#141412</color>
+    <color name="md_on_surface">#E9E8E3</color>
+    <color name="md_surface_variant">#454540</color>
+    <color name="md_on_surface_variant">#C8C7C0</color>
+    <color name="md_surface_container">#1D1D1B</color>
+    <color name="md_surface_container_high">#272724</color>
+    <color name="md_outline">#8E8D86</color>
+    <color name="md_outline_variant">#454540</color>
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <color name="acc_green_primary">#9ECFBB</color>
+    <color name="acc_green_on">#08281C</color>
+    <color name="acc_green_container">#274E3F</color>
+    <color name="acc_green_on_container">#BAECD6</color>
+
+    <color name="acc_amber_primary">#FFB868</color>
+    <color name="acc_amber_on">#4A2800</color>
+    <color name="acc_amber_container">#6A3F00</color>
+    <color name="acc_amber_on_container">#FFDDB3</color>
+
+    <color name="acc_teal_primary">#4FD9E0</color>
+    <color name="acc_teal_on">#00363A</color>
+    <color name="acc_teal_container">#004F53</color>
+    <color name="acc_teal_on_container">#9FF0F4</color>
+
+    <color name="acc_plum_primary">#AAC7EC</color>
+    <color name="acc_plum_on">#132435</color>
+    <color name="acc_plum_container">#2C3D53</color>
+    <color name="acc_plum_on_container">#D6E3F7</color>
+
+    <!-- Ringing (monochrome graphite) -->
+    <color name="alarm_grad_top">#201F1C</color>
+    <color name="alarm_grad_bottom">#000000</color>
+    <color name="alarm_fg">#F5F5F2</color>
+    <color name="alarm_hint">#80CFCEC8</color>
+    <color name="alarm_btn_bg">#F5F5F2</color>
+    <color name="alarm_btn_fg">#201F1C</color>
+</resources>

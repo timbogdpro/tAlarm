@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIANT: Midnight — small radius, borderless. -->
+<resources>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_stroke">0dp</dimen>
+</resources>

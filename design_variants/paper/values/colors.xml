@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VARIANT: Paper — warm cream, editorial, forest-green accent. All pairs >= WCAG AA. -->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="md_primary">#1E6B52</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#A7E8CF</color>
+    <color name="md_on_primary_container">#00210F</color>
+
+    <color name="md_secondary">#6D5E3F</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#EDE2C8</color>
+    <color name="md_on_secondary_container">#4A4223</color>
+
+    <color name="md_tertiary">#815500</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#FFDCB0</color>
+    <color name="md_on_tertiary_container">#2A1700</color>
+
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+
+    <color name="md_background">#F6F1E7</color>
+    <color name="md_on_background">#211C14</color>
+    <color name="md_surface">#F6F1E7</color>
+    <color name="md_on_surface">#211C14</color>
+    <color name="md_surface_variant">#E7DEC9</color>
+    <color name="md_on_surface_variant">#5C5443</color>
+    <color name="md_surface_container">#F6F1E7</color>
+    <color name="md_surface_container_high">#EFE7D6</color>
+    <color name="md_outline">#7C7259</color>
+    <color name="md_outline_variant">#C9BFA8</color>
+
+    <!-- Ringing screen -->
+    <color name="alarm_grad_top">#A8421C</color>
+    <color name="alarm_grad_bottom">#6E2810</color>
+    <color name="alarm_fg">#FFF6EC</color>
+    <color name="alarm_hint">#99F3E7D8</color>
+    <color name="alarm_btn_bg">#FFF6EC</color>
+    <color name="alarm_btn_fg">#6E2810</color>
+</resources>
