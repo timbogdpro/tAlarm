@@ -1,6 +1,6 @@
 # tAlarm
 
-**English** · [Версия на русском языке ↓](#tAlarm - громкий будильник с калькулятором фаз сна)
+**English** · [Версия на русском языке ↓](#talarm---громкий-будильник-с-калькулятором-фаз-сна)
 
 A no-nonsense **very loud** alarm clock for Android, built to actually wake you up — plus a sleep-cycle calculator. Native Kotlin, offline, no ads, no trackers, no accounts.
 
