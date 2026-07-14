@@ -1,6 +1,6 @@
 # tAlarm
 
-**English** · [Версия на русском языке ↓](#talarm---громкий-будильник-с-калькулятором-фаз-сна)
+**English** · [Версия на русском языке ↓](#talarm---громкий-будильник-с-калькулятором-циклов-сна)
 
 A no-nonsense **very loud** alarm clock for Android, built to actually wake you up — plus a sleep-cycle calculator. Native Kotlin, offline, no ads, no trackers, no accounts.
 
@@ -83,7 +83,7 @@ Application code is MIT-licensed. Bundled alarm sounds are third-party assets un
 
 ---
 
-## tAlarm - громкий будильник с калькулятором фаз сна
+## tAlarm - громкий будильник с калькулятором циклов сна
 
 Очень **громкий** будильник для Android, который реально разбудит, плюс калькулятор циклов сна. Нативный Kotlin, работает офлайн, без рекламы, трекеров и аккаунтов.
 
@@ -104,8 +104,8 @@ Application code is MIT-licensed. Bundled alarm sounds are third-party assets un
 - **Потрясти телефон** — задаёшь число встряхиваний.
 
 **Калькулятор циклов сна**
-- «Ложусь в X» → лучшее время для подъёма.
-- «Встать в X» → лучшее время лечь.
+- «Ложусь в X» → когда лучше встать.
+- «Встать в X» → когда лучше лечь.
 - На основе циклов ~90 минут (плюс время на засыпание); 5–6 циклов помечены оптимальными.
 - Тап по времени сразу создаёт будильник.
 
