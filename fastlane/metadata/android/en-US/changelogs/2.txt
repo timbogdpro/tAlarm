@@ -1,0 +1,7 @@
+First public release.
+
+- Very loud alarm with an extra volume-boost slider
+- Dismiss by button, a math problem, or by shaking the phone
+- Snooze, day repeats, light/dark themes and accent colors
+- Sleep-cycle calculator to pick the best wake-up / bedtime
+- Fully offline: no ads, no analytics, no data collected

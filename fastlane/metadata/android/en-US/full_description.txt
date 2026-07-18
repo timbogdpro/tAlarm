@@ -1,0 +1,29 @@
+tAlarm is a no-nonsense alarm clock built around one job: actually waking you up.
+
+LOUD — and louder
+• Plays on the alarm channel at full volume, bypassing silent mode.
+• A separate volume-boost slider pushes the sound well past the normal maximum for heavy sleepers.
+• Four attention-grabbing sounds (air-raid siren, loud siren, sci-fi siren, car horn).
+
+Wake-up challenges (so you can't just swipe it off)
+• Button — simple tap to dismiss.
+• Solve a problem — single-digit addition/subtraction or multiplication. Tip: touching the answer field silences the sound so you can think in peace, while the phone keeps vibrating.
+• Shake the phone — set how many shakes it takes to turn off.
+
+Sleep-cycle calculator
+• "I'm going to bed at X" → the best times to wake up.
+• "I want to wake at X" → the best times to go to bed.
+• Based on ~90-minute sleep cycles (plus time to fall asleep); 5–6 cycles are marked as optimal.
+• Tap any suggested time to create an alarm for it instantly.
+
+More
+• Repeat by days, with quick "Every day / Weekdays / Weekends" presets.
+• Snooze with a chosen number of minutes.
+• Light and dark themes with a few accent colors.
+• English and Russian.
+
+Private by design
+• Works fully offline. No account, no sign-in.
+• No ads. No analytics. No data collected or shared.
+
+Note: to guarantee your alarm always fires on time, allow "Alarms & reminders" and, on some phones (e.g. Samsung), exclude tAlarm from battery optimization / "sleeping apps".
