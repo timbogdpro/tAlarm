@@ -4,16 +4,17 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Green with an upper-left light source for depth. -->
+    <!-- Blue gradient (top-left -> bottom-right), matching the tSignals brand icon. -->
     <path android:pathData="M0,0h108v108h-108z">
         <aapt:attr name="android:fillColor">
             <gradient
-                android:type="radial"
-                android:centerX="40"
-                android:centerY="34"
-                android:gradientRadius="98"
-                android:startColor="#FF3F836C"
-                android:endColor="#FF1D4335" />
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:startColor="#FF4C8DF5"
+                android:endColor="#FF16409E" />
         </aapt:attr>
     </path>
 </vector>
